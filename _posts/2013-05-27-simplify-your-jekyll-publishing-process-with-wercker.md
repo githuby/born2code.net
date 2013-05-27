@@ -1,12 +1,22 @@
 ---
+published: !<tag:yaml.org,2002:js/undefined> ""
 layout: post
-title: "Simplify your Jekyll publishing process with wercker"
-categories: [programming]
-tag: [wercker, jekyll, continuous deployment]
-keywords: [wercker, jekyll, continuous deployment, Amazone S3]
+title: Simplify your Jekyll publishing process with wercker
+categories: 
+  - programming
+tag: 
+  - wercker
+  - jekyll
+  - continuous deployment
+keywords: 
+  - wercker
+  - jekyll
+  - continuous deployment
+  - Amazone S3
+
 ---
 
-With many [blogger moving to static site generators](https://www.google.nl/search?q=popular+bloggers+moving+to+jekyll) and success stories like [Obama's $250 million fundraising platform](http://kylerush.net/blog/meet-the-obama-campaigns-250-million-fundraising-platform/) people are accepting static site generators as a serious alternative. Especially when security and performance are important.
+With many [bloggers moving to static site generators](https://www.google.nl/search?q=popular+bloggers+moving+to+jekyll) and success stories like [Obama's $250 million fundraising platform](http://kylerush.net/blog/meet-the-obama-campaigns-250-million-fundraising-platform/) people are accepting static site generators as a serious alternative. Especially when security and performance are important.
 
 Beside all the goodness static site generators offer, they come with a price. You need to regenerate the site every time the content changes. This must be done by a machine that has the static site generator software installed. For Jekyll this means [Ruby](http://www.ruby-lang.org/) and [Jekyll](http://jekyllrb.com). Although this may not be a problem for your development machine, it will held you from finishing an article on your tablet or fixing a typo from your cell phone.
 
